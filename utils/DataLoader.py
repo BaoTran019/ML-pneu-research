@@ -23,7 +23,7 @@ def Read_Excel_Data(filename):
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"❌ Không tìm thấy file: {file_path}")
 
-    print(f"📂 Đọc dữ liệu từ: {file_path}")
+    # print(f"📂 Đọc dữ liệu từ: {file_path}")
     df = pd.read_excel(file_path)
     df = df.drop(columns=["text", "advanced_text", "BioLORD emb"], errors='ignore')  
     df.info()
