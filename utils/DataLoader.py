@@ -1,7 +1,8 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-def LoadData(file_path):
+def Read_Excel_Data(file_path):
+    
     df = pd.read_excel(file_path)
     df = df.drop(columns=["text", "advanced_text", "BioLORD emb"], errors='ignore')  
     df.info()
