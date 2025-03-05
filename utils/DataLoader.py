@@ -22,15 +22,27 @@ def Read_Excel_Data(filename):
     # Kiểm tra file có tồn tại không
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"❌ Không tìm thấy file: {file_path}")
+    
+    # Xác định phần mở rộng của file
+    file_extension = os.path.splitext(filename)[1].lower()
+    print(file_extension)
 
-    # print(f"📂 Đọc dữ liệu từ: {file_path}")
-    df = pd.read_excel(file_path)
+    # Đọc file theo định dạng phù hợp
+    if file_extension == ".xlsx":
+        df = pd.read_excel(file_path)
+    elif file_extension == ".p":
+        df = pd.read_pickle(file_path)
+    else:
+        raise ValueError(f"❌ Định dạng file không hỗ trợ: {file_extension}. Chỉ hỗ trợ .xlsx và .p")
+
     df = df.drop(columns=["text", "advanced_text", "BioLORD emb"], errors='ignore')  
     df.info()
 
+    diag = 'cold'
+    if file_extension == ".p": diag = 'inf'
 
     # Tạo nhãn kết hợp từ hai cột pneu và cold
-    df['label_combined'] = df[['pneu', 'cold']].astype(str).agg('-'.join, axis=1)
+    df['label_combined'] = df[['pneu', diag]].astype(str).agg('-'.join, axis=1)
 
     # Kiểm tra số lượng mẫu mỗi nhóm nhãn
     print(df['label_combined'].value_counts())
@@ -43,9 +55,9 @@ def Read_Excel_Data(filename):
     test_df = test_df.drop(columns=['label_combined'])
 
     # Kiểm tra lại số lượng mẫu sau khi chia
-    print(train_df[['pneu', 'cold']].value_counts())
-    print(test_df[['pneu', 'cold']].value_counts())
+    print(train_df[['pneu', diag]].value_counts())
+    print(test_df[['pneu', diag]].value_counts())
 
-    target = targets = ["pneu", "cold"]  # Danh sách các nhãn cần chạy
+    target = targets = ['pneu', diag]  # Danh sách các nhãn cần chạy
 
     return df
