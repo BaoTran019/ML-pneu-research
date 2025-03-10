@@ -55,16 +55,13 @@ Nhóm sử dụng 3 mô hình chính để kết hợp và so sánh:
 
 ## 📈 Kết quả sơ bộ
 
-| Mô hình                    | Accuracy | Precision | Recall | AUC    |
-|----------------------------|----------|-----------|--------|--------|
-| Bayesian Network           | 0.83     | 0.80      | 0.85   | 0.88   |
-| BioLord + FFNN             | 0.86     | 0.84      | 0.87   | 0.91   |
-| Hybrid Bayesian + Neural   | 0.89     | 0.87      | 0.90   | 0.94   |
+![](png/resultModel.png)
 
 ## 📚 Công nghệ sử dụng
 
 
 - BioLord2023 Embedding
+- Lime and Shap
 
 
 ## 📝 Ghi chú
