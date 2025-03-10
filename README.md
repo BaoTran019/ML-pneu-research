@@ -41,9 +41,9 @@ Nhóm sử dụng 3 mô hình chính để kết hợp và so sánh:
 
 ### 1. Kiến trúc hệ thống tổng thể
 
-![Hệ thống tổng thể](png/knowledge.png)
+| ![Hệ thống tổng thể](png/knowledge.png) | ![Sample Patient](png/SamplePatient.png) |
+|----------------------------------------|------------------------------------------|
 
-![Sample Patient](png/SamplePatient.png)
 
 ### 2. Mạng Bayesian mẫu minh họa
 
