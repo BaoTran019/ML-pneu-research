@@ -41,15 +41,17 @@ Nhóm sử dụng 3 mô hình chính để kết hợp và so sánh:
 
 ### 1. Kiến trúc hệ thống tổng thể
 
-![Hệ thống tổng thể](images/system_architecture.png)
+![Hệ thống tổng thể](png/knowledge.png)
+
+![Sample Patient](png/SamplePatient.png)
 
 ### 2. Mạng Bayesian mẫu minh họa
 
-![Bayesian Network](images/bayesian_network.png)
+![Bayesian Network](png/Baseline.png)
 
 ### 3. Kết hợp embedding với suy diễn
 
-![Mô hình hybrid](images/hybrid_model.png)
+![Mô hình hybrid](png/Text2Clinical.png)
 
 ## 📈 Kết quả sơ bộ
 
