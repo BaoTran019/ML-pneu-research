@@ -11,7 +11,7 @@ Công trình sử dụng dữ liệu bệnh án bao gồm:
 - Embedding văn bản bằng mô hình BioLord2023
 - Phân tích các mối quan hệ nguyên nhân – kết quả giữa triệu chứng và chẩn đoán
 
-## 🧑‍💻 Thành viên thực hiện
+## 🧑‍💻 Member
 
 | Họ và tên          | Vai trò trong đề tài                                 |
 |--------------------|------------------------------------------------------|
@@ -21,7 +21,7 @@ Công trình sử dụng dữ liệu bệnh án bao gồm:
 | Trương Quang Long  | Thành viên                                           |
 
 
-## 🧩 Mô hình và phương pháp
+## 🧩 Model and Method
 
 Nhóm sử dụng 3 mô hình chính để kết hợp và so sánh:
 
@@ -37,7 +37,7 @@ Nhóm sử dụng 3 mô hình chính để kết hợp và so sánh:
    - Kết hợp mạng nơ-ron để trích xuất đặc trưng phi tuyến mạnh mẽ từ dữ liệu đa dạng.  
    - Đầu ra được đưa vào mạng Bayesian để suy diễn với tính diễn giải cao hơn.
 
-## 🖼️ Hình ảnh mô hình
+## 🖼️ Model Pictures
 
 ### 1. Kiến trúc hệ thống tổng thể
 
@@ -53,7 +53,7 @@ Nhóm sử dụng 3 mô hình chính để kết hợp và so sánh:
 
 ![Mô hình hybrid](png/Text2Clinical.png)
 
-## 📈 Kết quả sơ bộ
+## 📈 Result
 
 ![](png/resultModel.png)
 
@@ -64,7 +64,7 @@ Nhóm sử dụng 3 mô hình chính để kết hợp và so sánh:
 - Lime and Shap
 
 
-## 📝 Ghi chú
+## 📝 Note
 
 - Dữ liệu sử dụng là dữ liệu tổng hợp mô phỏng cho mục đích nghiên cứu.
 - Đề tài hướng đến khả năng diễn giải rõ ràng, phù hợp ứng dụng trong môi trường y tế thực tế.
