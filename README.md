@@ -11,6 +11,13 @@ Công trình sử dụng dữ liệu bệnh án bao gồm:
 - Embedding văn bản bằng mô hình BioLord2023
 - Phân tích các mối quan hệ nguyên nhân – kết quả giữa triệu chứng và chẩn đoán
 
+## 🧑‍💻 Lecturer
+
+| Họ và tên             |
+|-----------------------|
+| TS. Đỗ Như Tài        |
+| TS. Nguyễn Quốc Huy   |
+
 ## 🧑‍💻 Member
 
 | Họ và tên          | Vai trò trong đề tài                                 |
