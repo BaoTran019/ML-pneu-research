@@ -20,7 +20,7 @@ Công trình sử dụng dữ liệu bệnh án bao gồm:
 
 ## 🧑‍💻 Member
 
-| Họ và tên          | Vai trò trong đề tài                                 |
+| Họ và tên          | Vai trò                            |
 |--------------------|------------------------------------------------------|
 | Trần Vĩnh Huy      | Chủ nhiệm đề tài                                     |
 | Nguyễn Minh Nhựt   | Thành viên                                           |
