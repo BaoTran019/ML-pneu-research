@@ -43,6 +43,10 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
+#Metrics
+from sklearn.metrics import roc_auc_score, auc, precision_recall_curve, roc_curve
+
+
 # Scikit-learn
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
