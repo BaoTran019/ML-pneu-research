@@ -1,5 +1,8 @@
 # 🧠 Suy Diễn Chẩn Đoán Viêm Phổi Dựa Trên Mạng Bayesian
 
+## POSTER
+![Science Research Poster](png/Baseline.png)
+
 ## 📌 Introduce
 
 Công trình nghiên cứu khoa học này tập trung vào việc phát triển hệ thống suy diễn chẩn đoán viêm phổi dựa trên **Mạng Bayesian** (Bayesian Network) và FNN. Hệ thống kết hợp các thông tin lâm sàng, mô tả triệu chứng và tri thức y học để suy luận xác suất bệnh viêm phổi với độ tin cậy cao, hỗ trợ bác sĩ trong công tác chẩn đoán và ra quyết định.
@@ -27,58 +30,4 @@ Công trình sử dụng dữ liệu bệnh án bao gồm:
 | Trần Gia Bảo       | Thành viên                                           |
 | Trương Quang Long  | Thành viên                                           |
 
-
-## 🧩 Model and Method
-
-Nhóm sử dụng 3 mô hình chính để kết hợp và so sánh:
-
-1. **Bayesian Network (BN):**  
-   Mô hình đồ thị có hướng thể hiện mối quan hệ xác suất giữa các đặc trưng triệu chứng và chẩn đoán viêm phổi.
-
-2. **BioLord-FFNN:**  
-   - Sử dụng embedding BioLord2023 cho văn bản mô tả triệu chứng.  
-   - Kết hợp với mô hình **FFNN** để dự đoán nhãn viêm phổi.  
-   - Đầu ra xác suất được sử dụng làm node đầu vào cho mạng Bayesian.
-
-3. **Hybrid Bayesian Neural Model:**  
-   - Kết hợp mạng nơ-ron để trích xuất đặc trưng phi tuyến mạnh mẽ từ dữ liệu đa dạng.  
-   - Đầu ra được đưa vào mạng Bayesian để suy diễn với tính diễn giải cao hơn.
-
-## 🖼️ Model Pictures
-
-### 1. Kiến trúc hệ thống tổng thể
-
-| ![Hệ thống tổng thể](png/knowledge.png) | ![Sample Patient](png/SamplePatient.png) |
-|----------------------------------------|------------------------------------------|
-
-
-### 2. Mạng Bayesian mẫu minh họa
-
-![Bayesian Network](png/Baseline.png)
-
-### 3. Kết hợp embedding với suy diễn
-
-![Mô hình hybrid](png/Text2Clinical.png)
-
-## 📈 Result
-
-![](png/resultModel.png)
-
-## 📚 Công nghệ sử dụng
-
-
-- BioLord2023 Embedding
-- Lime and Shap
-
-
-## 📝 Note
-
-- Dữ liệu sử dụng là dữ liệu tổng hợp mô phỏng cho mục đích nghiên cứu.
-- Đề tài hướng đến khả năng diễn giải rõ ràng, phù hợp ứng dụng trong môi trường y tế thực tế.
-
----
-
-## 📫 Liên hệ
-
-Mọi thắc mắc xin liên hệ: **xxx**
 
