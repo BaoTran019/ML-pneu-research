@@ -1,7 +1,7 @@
 # 🧠 Suy Diễn Chẩn Đoán Viêm Phổi Dựa Trên Mạng Bayesian
 
 ## POSTER
-![Science Research Poster](png/Baseline.png)
+![Science Research Poster](png/POSTER NCKH (2).png)
 
 ## 📌 Introduce
 
