@@ -1,4 +1,5 @@
-# 🧠 Suy Diễn Chẩn Đoán Viêm Phổi Dựa Trên Mạng Bayesian
+#Suy Diễn Chẩn Đoán Viêm Phổi Dựa Trên Mạng (Bayesian Network-Based Inference For Pneumonia Diagnosis)
+
 
 ## POSTER
 ![Science Research Poster](png/POSTER.png)
