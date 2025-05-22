@@ -2,7 +2,7 @@
 
 
 ## POSTER
-![Science Research Poster](png/POSTER.png)
+![Science Research Poster](documents/POSTER.png)
 
 ## 📌 Introduce
 
