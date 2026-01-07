@@ -25,3 +25,6 @@ def load_data(train_path, test_path, cols_to_drop=None):
     test_df = convert(test_df)
     
     return train_df, test_df
+
+
+
